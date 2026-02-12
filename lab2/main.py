@@ -6,7 +6,7 @@
 # Індивідуальні завдання
 # 9) Перевірити рік на високосність.
 
-year = int(input())
+year = int(input("Enter the year: "))
 if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
     print("It's a leap year")
 else:
