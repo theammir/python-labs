@@ -1,0 +1,30 @@
+[
+    {
+        "string": "Hi!",
+        "another_string": "Lorem, ipsum",
+        "integer": 42,
+        "float": 69.01,
+        "bool": true
+    },
+    {
+        "string": "Hi2",
+        "another_string": "Test string fieldk",
+        "integer": 52,
+        "float": 69.02,
+        "bool": true
+    },
+    {
+        "string": "Hi3!",
+        "another_string": "I am out of test strings",
+        "integer": 0,
+        "float": 69.69,
+        "bool": true
+    },
+    {
+        "string": "Hi444!",
+        "another_string": "123123123....0000000000",
+        "integer": 11111,
+        "float": "notactuallyafloat",
+        "bool": null
+    }
+]

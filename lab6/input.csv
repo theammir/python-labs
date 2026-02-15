@@ -1,0 +1,5 @@
+string,another_string,integer,float,bool
+Hi!,"Lorem, ipsum",42,69.01,true
+Hi2,"Test string fieldk",52,69.0200,true
+Hi3!,"I am out of test strings",000,0069.69,false
+Hi444!,"123123123....0000000000",11111,notactuallyafloat,null
