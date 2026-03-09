@@ -8,6 +8,6 @@
 
 year = int(input("Enter the year: "))
 if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
-    print("It's a leap year")
+    print("It's a leap year (Високосний)")
 else:
-    print("It's not a leap year")
+    print("It's not a leap year (Не високосний)")

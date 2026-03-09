@@ -24,7 +24,7 @@ import os
 import sys
 from typing import Any
 
-INPUT_PATH = "input.csv"
+INPUT_PATH = "students.csv"
 OUTPUT_PATH = "output.json"
 
 

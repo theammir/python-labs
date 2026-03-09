@@ -16,6 +16,6 @@ IPV4_PATTERN = re.compile(
 )
 
 if re.match(IPV4_PATTERN, input("Enter an IPv4 address: ").strip()):
-    print("This is a valid IPv4 address.")
+    print("This is a valid IPv4 address. (True)")
 else:
-    print("This is NOT a valid IPv4 address.")
+    print("This is NOT a valid IPv4 address. (False)")

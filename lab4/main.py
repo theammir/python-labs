@@ -12,7 +12,6 @@ def inches_to_cm(inches: int | float) -> float:
 
 
 if __name__ == "__main__":
-    print(f"{inches_to_cm(5)    = }")
-    print(f"{inches_to_cm(10.5) = }")
-    print(f"{inches_to_cm(6.69) = }")
-    print(f"{inches_to_cm(18.0) = }")
+    print(f"{inches_to_cm(1)  = }")
+    print(f"{inches_to_cm(10) = }")
+    print(f"{inches_to_cm(5)  = }")

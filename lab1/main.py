@@ -15,11 +15,11 @@ print(f"{a * b = }")
 print(f"{a / b = }" if b != 0 else "a / b = undefined")
 
 if b != 0 and a % b == 0:
-    print("a is divisible by b")
+    print("a is divisible by b (Так)")
 else:
-    print("a is not divisible by b")
+    print("a is not divisible by b (Ні)")
 
 if a != 0 and b % a == 0:
-    print("b is divisible by a")
+    print("b is divisible by a (Так)")
 else:
-    print("b is not divisible by a")
+    print("b is not divisible by a (Ні)")

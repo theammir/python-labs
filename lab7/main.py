@@ -10,9 +10,9 @@
 import sys
 from typing import Iterable, TextIO
 
-# INPUT_PATH = "input.txt"
-INPUT_PATH = "input_nonexistent.txt"
-LOG_FILE = open("log.txt", "w")
+# INPUT_PATH = "input_nonexistent.txt"
+INPUT_PATH = "input.txt"
+LOG_FILE = open("error.log", "w")
 
 
 def log(line: str, streams: Iterable[TextIO] = (LOG_FILE, sys.stdout)) -> None:
@@ -31,7 +31,14 @@ except Exception as e:
     log(f"Unknown error occured: {e.__class__.__name__}: {e}")
     sys.exit(1)
 
-if content.isnumeric():
-    log("The file only contains a number.")
-else:
-    log("The file does not only contain a number.")
+for line in content.splitlines():
+    error = False
+    name, age = line.split(":", 2)
+    if not name or not age:
+        error = True
+    if not name.isalpha() or not age.isnumeric():
+        error = True
+
+    if error:
+        print("Помилка нижче:")
+    print(name)
